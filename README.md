@@ -17,9 +17,7 @@
 
 # 📌Project Overview 
 ---
-According to INTERPOL's (2024) assessment, regions such as West and Southern Africa have seen an increase in romance baiting frauds, while Asia has become a focal point for telecommunication frauds where perpetrators impersonate law enforcement or bank officials to extract financial information from victims.Among financial institutions, commercial banks and health insurers have been notably affected by fraud. Additionally, identity fraud has emerged as a predominant threat, accounting for 45% of all adverse contributions reported by banks and financial service providers in 2023, with projections suggesting it could reach 50% by the end of the year,(Retain Banker International, 2024). Interpol (2024) states that causes of fraud in commercial banks and financial institutions are multifaceted. The increased use of technology has enabled organized crime groups to conduct sophisticated fraud campaigns at relatively low costs. Moreover, PYMNTS (2024) indicates the rise in scam-related frauds, particularly those exploiting consumer trust through social engineering, has led to a 56% increase in such incidents in 2024, surpassing traditional digital payment crimes. Regarding transaction methods, scams have become the leading form of fraud, surpassing digital payment fraud. The share of scam-related fraud increased by 56% in 2024, with financial losses from scams rising by 121%. These scams now account for 23% of all fraudulent transactions, with relationship and product scams responsible for most losses,(PYMNTS,2024).
-
-In Kenya, financial fraud has become an escalating concern, with recent incidents highlighting the vulnerability of the nation's financial institutions,(Kenay Wall Street,2024). A notable case involves Kiwipay Kenya Limited, where approximately Ksh2.3 billion ($19.48 million) was frozen due to suspicions of debit card fraud linked to an international syndicate. The CBK (2025) has identified several factors contributing to the rise of fraud within the country's financial sector. These include the increased adoption of information and communication technology (ICT), which, while enhancing operational efficiency, has also opened new avenues for cybercriminals. Additionally, a general lack of awareness regarding financial security among consumers has made them more susceptible to schemes such as social engineering and identity theft. Emerging cyber threats further exacerbate these challenges, necessitating robust cybersecurity measures across financial institutions. Among the various transaction methods, digital payment platforms have been significantly targeted by fraudsters. The CBK has observed that mobile and internet banking channels are particularly vulnerable, with fraudsters exploiting these platforms to conduct unauthorized transactions. This trend underscores the need for enhanced security protocols and increased consumer education to mitigate the risks associated with digital financial services.
+According to INTERPOL (2024), fraud trends vary by region, with West and Southern Africa experiencing increased romance baiting scams, while Asia faces telecommunication fraud where criminals impersonate law enforcement or bank officials. Commercial banks and health insurers are the most affected financial institutions, with identity fraud accounting for 45% of reported cases in 2023 and projected to reach 50% by year-end (Retail Banker International, 2024). The growing use of technology has enabled sophisticated fraud schemes at lower costs, with scam-related frauds rising by 56% in 2024, surpassing digital payment fraud (PYMNTS, 2024). Scams now constitute 23% of fraudulent transactions, with relationship and product scams driving financial losses. In Kenya, financial fraud is escalating, exposing vulnerabilities in the banking sector (Kenyan Wall Street, 2024). A major case involved Kiwipay Kenya Limited, where Ksh2.3 billion ($19.48 million) was frozen due to suspected debit card fraud. The Central Bank of Kenya (CBK, 2025) attributes the surge in fraud to increased ICT adoption, low financial security awareness, and emerging cyber threats. Mobile and internet banking channels remain highly targeted, emphasizing the need for stronger security protocols and public education to combat digital financial fraud.
 
 Kenya has experienced a massive shift to digital banking and mobile transactions, with platforms like M-Pesa, PesaLink, and internet banking becoming dominant. However, this digitization has also led to an increase in financial fraud cases, such as:
 
@@ -42,15 +40,58 @@ The Central Bank of Kenya (CBK) has highlighted key risk factors, including the 
 
 ## 📌Project Objectives
 ---
+1. Classify whether a transactions is fraudulent or non-fraudulent using patterns from historical data
 
+2. Identify unusual transactions patterns that may signal fraudulent activities, checking for outliers within the transactions.
+
+3. Train machine learning model which predicts fraudulent transactions based on historical data.
+
+4. Study how demographics including age and gender impact fraud risks.
+
+5. Identify peak fraud periods based on transactions date and transactions time.
 
 
 # 📌Data Source and Description 
 ---
+The data was sourced from https://www.kaggle.com/datasets/marusagar/bank-transaction-fraud-detection
 
+The dataset used for model building contained 200000 observations of 24 variables. 
+
+The variables in the dataset are *Customer_ID*, *Customer_Name*, *Gender* , *Age* ,*State*, *City*, *Bank_Branch*, *Account_Type*, *Transaction_ID*, *Transaction_Date*, *Transaction_Time*, *Transaction_Amount*, *Merchant_ID*, *Transaction_Type*, *Merchant_Category*, *Account_Balance*, *Transaction_Device*, * Transaction_Location*, *Device_Type*, *Is_Fraud*, *Transaction_Currency*, *Customer_Contact*, *Transaction_Description* and *Customer_Email* 
 
 # 📌Data Loading and Cleaning 
 ---
 
 
-# 
+# 📌Exploratory Data Analysis (EDA)
+---
+
+# 📌 Machine Learning Models
+---
+* Models applied:
+    1. Logistic Regression
+    2. Decision Trees
+    3. Random Forest
+    4. XGBoost
+       
+* Model evaluation:
+  
+    1. Accuracy, Precision, Recall, F1-score
+    2. Confusion Matrix
+    3. ROC-AUC Curve
+
+ # 📌Results and Performance
+ ---
+
+* Summarize the findings from the models:
+  
+    1. Best performing model based on metrics
+    2. Model comparison table
+    3. Example visualization of results
+
+# 📌 Conclusion
+---
+
+
+# 📌 Recommendations
+---
