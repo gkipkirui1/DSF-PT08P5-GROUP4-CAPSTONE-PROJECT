@@ -1,5 +1,5 @@
 # 📌Building an Intelligent Fraud Detection System
-
+![Fraud](https://github.com/gkipkirui1/DSF-PT08P5-GROUP4-CAPSTONE-PROJECT/blob/main/images/fraud1.jpg)
 
 ---
 
