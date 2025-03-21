@@ -1,4 +1,6 @@
-# Building an Intelligent Fraud Detection System
+# 📌Building an Intelligent Fraud Detection System
+
+
 ---
 
 * Students name: 
@@ -13,26 +15,26 @@
 
 ---
 
-# Project Overview 
+# 📌Project Overview 
 ---
 
 
 
-# Business Problem 
+# 📌Business Problem 
 ---
 
 
 
-# Project Objectives
+# 📌Project Objectives
 ---
 
 
 
-# Data Source and Description 
+# 📌Data Source and Description 
 ---
 
 
-# Data Loading and Cleaning 
+# 📌Data Loading and Cleaning 
 ---
 
 
