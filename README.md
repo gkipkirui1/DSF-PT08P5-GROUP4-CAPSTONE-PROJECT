@@ -59,11 +59,11 @@ The dataset used for model building contained 200000 observations of 24 variable
 
 The variables in the dataset are *Customer_ID*, *Customer_Name*, *Gender* , *Age* ,*State*, *City*, *Bank_Branch*, *Account_Type*, *Transaction_ID*, *Transaction_Date*, *Transaction_Time*, *Transaction_Amount*, *Merchant_ID*, *Transaction_Type*, *Merchant_Category*, *Account_Balance*, *Transaction_Device*, * Transaction_Location*, *Device_Type*, *Is_Fraud*, *Transaction_Currency*, *Customer_Contact*, *Transaction_Description* and *Customer_Email* 
 
-# 📌Data Loading and Cleaning 
+# 📌Data Understanding and Preparation 
 ---
 
 
-# 📌Exploratory Data Analysis (EDA)
+# 📌Exploratory Data Analysis (EDA) and Vizualization
 ---
 
 # 📌 Machine Learning Models
