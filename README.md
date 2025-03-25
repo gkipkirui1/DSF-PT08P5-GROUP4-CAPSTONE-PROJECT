@@ -116,9 +116,11 @@ The categorical columns in the dataset are: ['Customer_ID', 'Customer_Name', 'Ge
      * On the nalysis of Transaction Amount Targeted by Fraud a total transactions amount of 497.1157 Million Indian Rupees were reported to have been targetted by Fraud.
      * The boxplots for numerical features by Is_Fraud indicate that there is no significant difference in the distributions of these features between fraudulent and non-fraudulent transactions. Both categories show similar ranges and medians, suggesting that the numerical features do not provide strong discriminatory power for identifying fraudulent transactions. This could imply that other factors, possibly categorical or behavioral, may be more relevant in predicting fraud.
      * On Distribution of Fraud and Non Fraud Cases by Gender, Age, Account Type and Device Type:
-         > There are more non-fraudulent transactions for both genders, but the proportion of fraudulent transactions is slightly higher among males compared to females. This suggests that gender may play a role in the likelihood of fraud, warranting further investigation into behavioral patterns.
-         > In fraud rate by age, indicating that the fraud rate tends to increase with age, peaking in the middle age range (around 40-50 years). This suggests that older customers may be more susceptible to fraud, which could be due to various factors such as financial literacy or exposure to fraud schemes.
-         > The distribution of fraudulent transactions across different devices is relatively equal, indicating that there may not be a significant difference in fraud occurrence based on the device used.
+         i. There are more non-fraudulent transactions for both genders, but the proportion of fraudulent transactions is slightly higher among males compared to females. This suggests that gender may play a role in the likelihood of fraud, warranting further investigation into behavioral patterns.
+       
+         ii.  In fraud rate by age, indicating that the fraud rate tends to increase with age, peaking in the middle age range (around 40-50 years). This suggests that older customers may be more susceptible to fraud, which could be due to various factors such as financial literacy or exposure to fraud schemes.
+       
+       iii. The distribution of fraudulent transactions across different devices is relatively equal, indicating that there may not be a significant difference in fraud occurrence based on the device used.
   
 3. Multivariate Analysis
     * Visualization of Relationships Among Numerical Features Using Pairplot
@@ -134,9 +136,13 @@ In this step, we prepared our data for Modelling. The following steps were under
   * We will also handled class imbalance since our class feature is highly imbalanced.
   * First, we removed unnecessary columns from our dataframe because:
       > State and City since it has been combined under Transaction_Location column.
-      > Customer and transaction related columns that may not impact on our models
+      
+      > Customer and transaction related columns that may not impact on our models.
+      
       > Age_group as it was feature engineered for EDA purposes.
+      
       > Column 'transaction_datetime' is not needed as we have Transaction_Day and Transaction_Hour to represent the same information as transaction_datetime.
+      
   * After dropping the column the dataset has 200000 rows and 16 columns
     
 # 📌 Machine Learning Models
