@@ -9,9 +9,9 @@
 
 * Scheduled project review date/time: 
 
-* Instructor name: 
+* Instructor name: Daniel Ekale &  Samuel Karu
 
-* Github post URL: 
+* Github post URL: https://github.com/gkipkirui1/DSF-PT08P5-GROUP4-CAPSTONE-PROJECT
 
 ---
 
@@ -40,27 +40,58 @@ The Central Bank of Kenya (CBK) has highlighted key risk factors, including the 
 
 ## 📌Project Objectives
 ---
-1. Classify whether a transactions is fraudulent or non-fraudulent using patterns from historical data
+The objective of this project is to develop a model to:
 
-2. Identify unusual transactions patterns that may signal fraudulent activities, checking for outliers within the transactions.
+1. Analyse card transaction patterns with a view to detect fraud
 
-3. Train machine learning model which predicts fraudulent transactions based on historical data.
+2. Come up with a predictive models that can accurately classify transactions as fraudulent or legitimate
 
-4. Study how demographics including age and gender impact fraud risks.
+3. Study how demographics including age and gender impact fraud risks.
 
-5. Identify peak fraud periods based on transactions date and transactions time.
+4. Identify peak fraud periods based on transactions date and transactions time.
 
+5. Establish a model that can detect suspicious card frauds in real time
+
+## 📌Target Audience
+---
+This project is designed for:
+
+1. Banks and Financial Institutions classified as Tier one banks in Kenya, seeking to enhance their fraud prevention mechanisms.
+
+2. Mobile Money Operators like Safaricom (M-Pesa), Airtel Money, and Telkom T-Kash looking to secure transactions from mobile fraudsters.
+
+3. Regulatory Bodies and Government agencies, including the Central Bank of Kenya (CBK) and Communications Authority of Kenya, ensuring compliance with digital fraud policies.
+
+4. Individual bank customers and corporate clients who require a secure and reliable banking system free from fraudulent activities.
+   
 
 # 📌Data Source and Description 
 ---
 The data was sourced from https://www.kaggle.com/datasets/marusagar/bank-transaction-fraud-detection
 
-The dataset used for model building contained 200000 observations of 24 variables. 
-
 The variables in the dataset are *Customer_ID*, *Customer_Name*, *Gender* , *Age* ,*State*, *City*, *Bank_Branch*, *Account_Type*, *Transaction_ID*, *Transaction_Date*, *Transaction_Time*, *Transaction_Amount*, *Merchant_ID*, *Transaction_Type*, *Merchant_Category*, *Account_Balance*, *Transaction_Device*, * Transaction_Location*, *Device_Type*, *Is_Fraud*, *Transaction_Currency*, *Customer_Contact*, *Transaction_Description* and *Customer_Email* 
+
 
 # 📌Data Understanding and Preparation 
 ---
+1. The dataset has 200000 rows and 24 columns.
+
+2. The dataset has 2 columns with Float data type, 2 column with integer data type and 20 columns with categorical data types.
+
+3. The Transaction_Date and Transaction_Time columns are indicated as object data type. For analysis and feature engineering processes, the data types for the two columns will be converted to Datetime format.
+
+4. The Fraud Transaction dataset has no missing values.
+
+5. The dataset has no duplicate rows.
+
+5. The descriotive analysis of the categorical data was: 
+
+    * The mean age, transaction amount and account Balance is 44 years, 49538 INR and 53437 INR respectively.
+   
+    * The standard deviation of the age transaction amount is 15 years, 28551 INR and 27399 INR respectively.
+   
+    * The minimum age and maximum age is 18 and 70 years.
+  
 
 
 # 📌Exploratory Data Analysis (EDA) and Vizualization
