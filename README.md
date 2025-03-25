@@ -69,7 +69,11 @@ This project is designed for:
 ---
 The data was sourced from https://www.kaggle.com/datasets/marusagar/bank-transaction-fraud-detection
 
-The variables in the dataset are *Customer_ID*, *Customer_Name*, *Gender* , *Age* ,*State*, *City*, *Bank_Branch*, *Account_Type*, *Transaction_ID*, *Transaction_Date*, *Transaction_Time*, *Transaction_Amount*, *Merchant_ID*, *Transaction_Type*, *Merchant_Category*, *Account_Balance*, *Transaction_Device*, * Transaction_Location*, *Device_Type*, *Is_Fraud*, *Transaction_Currency*, *Customer_Contact*, *Transaction_Description* and *Customer_Email* 
+The variables in the dataset are *Customer_ID*, *Customer_Name*, *Gender* , *Age* ,*State*, *City*, *Bank_Branch*, *Account_Type*, *Transaction_ID*, *Transaction_Date*, *Transaction_Time*, *Transaction_Amount*, *Merchant_ID*, *Transaction_Type*, *Merchant_Category*, *Account_Balance*, *Transaction_Device*, * Transaction_Location*, *Device_Type*, *Is_Fraud*, *Transaction_Currency*, *Customer_Contact*, *Transaction_Description* and *Customer_Email*. 
+
+The numerical columns in the dataset are: ['Age', 'Transaction_Amount', 'Account_Balance', 'Is_Fraud']
+
+The categorical columns in the dataset are: ['Customer_ID', 'Customer_Name', 'Gender', 'State', 'City', 'Bank_Branch', 'Account_Type', 'Transaction_ID', 'Transaction_Date', 'Transaction_Time', 'Merchant_ID', 'Transaction_Type', 'Merchant_Category', 'Transaction_Device', 'Transaction_Location', 'Device_Type', 'Transaction_Currency', 'Customer_Contact', 'Transaction_Description', 'Customer_Email']
 
 
 # 📌Data Understanding and Preparation 
@@ -107,6 +111,34 @@ The variables in the dataset are *Customer_ID*, *Customer_Name*, *Gender* , *Age
      * The transaction device with the highest fraud cases is: **ATM Booth Kiosk** while the transaction device with the lowest fraud cases is: **POS Terminal**. 
      * The age distribution shows a more uniform spread, with a slight concentration in the **middle age range (around 30-50 years)**. This suggests that the bank's customer base is primarily composed of middle-aged individuals.
 
+2. Bivariate Analysis
+     * On the analysis on Analysis of Fraud Cases over Time the Peak Fraud Period: is between 2025-01-06 06:00:00 and 2025-01-06 12:00:00.
+     * On the nalysis of Transaction Amount Targeted by Fraud a total transactions amount of 497.1157 Million Indian Rupees were reported to have been targetted by Fraud.
+     * The boxplots for numerical features by Is_Fraud indicate that there is no significant difference in the distributions of these features between fraudulent and non-fraudulent transactions. Both categories show similar ranges and medians, suggesting that the numerical features do not provide strong discriminatory power for identifying fraudulent transactions. This could imply that other factors, possibly categorical or behavioral, may be more relevant in predicting fraud.
+     * On Distribution of Fraud and Non Fraud Cases by Gender, Age, Account Type and Device Type:
+         > There are more non-fraudulent transactions for both genders, but the proportion of fraudulent transactions is slightly higher among males compared to females. This suggests that gender may play a role in the likelihood of fraud, warranting further investigation into behavioral patterns.
+         > In fraud rate by age, indicating that the fraud rate tends to increase with age, peaking in the middle age range (around 40-50 years). This suggests that older customers may be more susceptible to fraud, which could be due to various factors such as financial literacy or exposure to fraud schemes.
+         > The distribution of fraudulent transactions across different devices is relatively equal, indicating that there may not be a significant difference in fraud occurrence based on the device used.
+  
+3. Multivariate Analysis
+    * Visualization of Relationships Among Numerical Features Using Pairplot
+    * Feature Correlation Analysis for Understanding Relationships
+
+# 📌Data Preparation
+---
+In this step, we prepared our data for Modelling. The following steps were undertaken:
+
+  * Remove Unnecessary columns which we deem less important for our modelling.
+  * Data Transformation. This involved Standard Scaling and Label Encoding.
+  * We also checked for outliers as skewed data may have an effect on our modelling process.
+  * We will also handled class imbalance since our class feature is highly imbalanced.
+  * First, we removed unnecessary columns from our dataframe because:
+      > State and City since it has been combined under Transaction_Location column.
+      > Customer and transaction related columns that may not impact on our models
+      > Age_group as it was feature engineered for EDA purposes.
+      > Column 'transaction_datetime' is not needed as we have Transaction_Day and Transaction_Hour to represent the same information as transaction_datetime.
+  * After dropping the column the dataset has 200000 rows and 16 columns
+    
 # 📌 Machine Learning Models
 ---
 * Models applied:
