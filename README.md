@@ -92,10 +92,20 @@ The variables in the dataset are *Customer_ID*, *Customer_Name*, *Gender* , *Age
    
     * The minimum age and maximum age is 18 and 70 years.
   
-
-
-# 📌Exploratory Data Analysis (EDA) and Vizualization
+# 📌 Vizualization
 ---
+
+
+
+# 📌Exploratory Data Analysis (EDA)
+---
+1. Univariate Analysis
+     * For the class 0 indicating **(Non-fraud cases)** which is 94.956% of the data while for class 1 **(fraud cases)** 5.044% of the data.
+     * The transaction type with the highest cases of fraud is: **Transfer**. 
+     * The state with the highest fraud cases is: **Lakshadweep**.
+     * The distribution points to a slightly higher number of reported fraud cases affecting **males** as compared to **females**.
+     * The transaction device with the highest fraud cases is: **ATM Booth Kiosk** while the transaction device with the lowest fraud cases is: **POS Terminal**. 
+     * The age distribution shows a more uniform spread, with a slight concentration in the **middle age range (around 30-50 years)**. This suggests that the bank's customer base is primarily composed of middle-aged individuals.
 
 # 📌 Machine Learning Models
 ---
