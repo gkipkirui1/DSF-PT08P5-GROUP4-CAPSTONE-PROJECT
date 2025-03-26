@@ -115,21 +115,26 @@ The categorical columns in the dataset are: ['Customer_ID', 'Customer_Name', 'Ge
 ![Number of Fraudulent over time](https://github.com/gkipkirui1/DSF-PT08P5-GROUP4-CAPSTONE-PROJECT/blob/main/images/Analysis%20of%20Fraud%20Cases%20Over%20Time.png)
 
 * Top 3 Peak Fraud Periods:
+* 
 Peak 1: Start = 2025-01-06 06:00:00, End = 2025-01-06 12:00:00, Count = 107
+
 Peak 2: Start = 2025-01-29 00:00:00, End = 2025-01-29 06:00:00, Count = 106
+
 Peak 3: Start = 2025-01-26 18:00:00, End = 2025-01-27 00:00:00, Count = 106
 
 * Given that the dataset was sourced from India, we researched on what was unique during the peak fraud periods. We established that on 6/01/2025 was Guru Gobind Singh's Birthday, a holiday celebrated in some states in India. Similarly, 26/01/2025 was Republic Day (G); a national holiday in India. India also observed lunar new year on 29/01/2025, one of the most important celebrations of the year among East and Southeast Asian cultures.
 
 ![Distribution of Fraud and Non Fraud Cases by Numerical Features](https://github.com/gkipkirui1/DSF-PT08P5-GROUP4-CAPSTONE-PROJECT/blob/main/images/Distribution%20of%20Fraud%20and%20Non%20Fraud%20Cases%20by%20Numerical%20Features.png)
 
+* The boxplots for numerical features by Is_Fraud indicate that there is no significant difference in the distributions of these features between fraudulent and non-fraudulent transactions. Both categories show similar ranges and medians, suggesting that the numerical features do not provide strong discriminatory power for identifying fraudulent transactions. This could imply that other factors, possibly categorical or behavioral, may be more relevant in predicting fraud.
 
 
 ![Correlation Matrix](https://github.com/gkipkirui1/DSF-PT08P5-GROUP4-CAPSTONE-PROJECT/blob/main/images/Correlation%20Analysis%20of%20Numerical%20Features.png)
 The correlation matrix shows very weak linear relationships (correlation coefficients near zero) among variables, indicating minimal direct association. Most variables are linearly independent, suggesting that changes in one do not strongly affect others. This implies that non-linear patterns or additional feature engineering may be necessary for predictive modeling.
 
 ![Analysis of Transaction Amount Targeted by Fraud](https://github.com/gkipkirui1/DSF-PT08P5-GROUP4-CAPSTONE-PROJECT/blob/main/images/Analysis%20of%20Transaction%20Amount%20Targeted%20by%20Fraud)
-On the nalysis of Transaction Amount Targeted by Fraud a total transactions amount of 497.1157 Million Indian Rupees were reported to have been targetted by Fraud
+
+* On the nalysis of Transaction Amount Targeted by Fraud a total transactions amount of 497.1157 Million Indian Rupees were reported to have been targetted by Fraud
 
 # 📌Exploratory Data Analysis (EDA)
 ---
@@ -224,6 +229,29 @@ In this step, we prepared our data for Modelling. The following steps were under
 # 📌 Conclusion
 ---
 
+* There seem to be a minor difference in the number of fraud cases between genders suggesting that the fraud occurences is relatively balanced across the genders.
+
+* For customers at the age 19-30 and 51 - 60 years show significantly higher numbers of fraud cases which further indicates that individuals in the age groups are more vulnerable to fraud.
+
+* The transaction type with the highest number of frauds is Transfer with 2,073 cases reported, followed closely by credit transactions with 2048 cases.
+
+* The ATM Booth Kiosk, the ATM and the Self-service Machine channels posed the highest risk of fraud among the transaction devices.
+
+* The peak periods of fraud incidents are during holidays.
 
 # 📌 Recommendations
+---
+
+* Financial institutions to use fraud by age-group analysis to perform risk assessment to inform and come up with awareness campaigns towards the targeted group to reduce chances of fraud.
+
+* Financial institution to do a deeper analysis on the how to establish controls to mitigate risks of fraud in areas with highest frequency including transfers and credit transactions.
+
+* More controls need to be established on the ATM Booth Kiosk, the ATM and the Self-service Machine as they reported the most frauds.
+
+* Financial institution should heighten monitoring of fraudulent activities during holidays and special days marked in the country.
+
+* Understanding the distribution of fraud cases by age group can aid in risk assessment and the development of targeted fraud prevention strategies. Financial institutions and security agencies can use this information to implement age-specific awareness campaigns and security measures.
+
+* Understanding the distribution of fraud cases by gender can help in designing targeted fraud prevention strategies. For example, if females have a higher number of fraud cases, awareness campaigns and security measures can be tailored specifically for female users.
+
 ---
