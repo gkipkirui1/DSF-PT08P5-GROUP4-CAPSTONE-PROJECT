@@ -99,6 +99,14 @@ The categorical columns in the dataset are: ['Customer_ID', 'Customer_Name', 'Ge
 # 📌 Vizualization
 ---
 
+![Number of Fraudulent over time](https://github.com/gkipkirui1/DSF-PT08P5-GROUP4-CAPSTONE-PROJECT/blob/main/images/Analysis%20of%20Fraud%20Cases%20Over%20Time.png)
+On the analysis on Analysis of Fraud Cases over Time the Peak Fraud Period: is between 2025-01-06 06:00:00 and 2025-01-06 12:00:00.
+
+![Correlation Matrix](https://github.com/gkipkirui1/DSF-PT08P5-GROUP4-CAPSTONE-PROJECT/blob/main/images/Correlation%20Analysis%20of%20Numerical%20Features.png)
+The correlation matrix shows very weak linear relationships (correlation coefficients near zero) among variables, indicating minimal direct association. Most variables are linearly independent, suggesting that changes in one do not strongly affect others. This implies that non-linear patterns or additional feature engineering may be necessary for predictive modeling.
+
+![Distribution of Fraud and Non Fraud Cases by Numerical Features](https://github.com/gkipkirui1/DSF-PT08P5-GROUP4-CAPSTONE-PROJECT/blob/main/images/Distribution%20of%20Fraud%20and%20Non%20Fraud%20Cases%20by%20Numerical%20Features.png)
+
 
 
 # 📌Exploratory Data Analysis (EDA)
