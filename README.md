@@ -3,11 +3,11 @@
 
 ---
 
-* Students name: 
+* Group: 4
 
 * Student pace: Part Time
 
-* Scheduled project review date/time: 
+* Scheduled project review date/time: February 2025 - March 2025
 
 * Instructor name: Daniel Ekale &  Samuel Karu
 
