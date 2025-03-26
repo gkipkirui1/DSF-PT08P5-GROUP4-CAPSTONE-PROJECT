@@ -98,8 +98,19 @@ The categorical columns in the dataset are: ['Customer_ID', 'Customer_Name', 'Ge
   
 # 📌 Vizualization
 ---
+![Analysis of Fraud Cases by Gender.png](https://github.com/gkipkirui1/DSF-PT08P5-GROUP4-CAPSTONE-PROJECT/blob/main/images/Analysis%20of%20Fraud%20Cases%20by%20Gender.png)
+The distribution points to a slightly higher number of reported fraud cases affecting **males** as compared to **females**.
 
+![Number of Fraudulent over time](https://github.com/gkipkirui1/DSF-PT08P5-GROUP4-CAPSTONE-PROJECT/blob/main/images/Analysis%20of%20Fraud%20Cases%20Over%20Time.png)
+On the analysis on Analysis of Fraud Cases over Time the Peak Fraud Period: is between 2025-01-06 06:00:00 and 2025-01-06 12:00:00.
 
+![Distribution of Fraud and Non Fraud Cases by Numerical Features](https://github.com/gkipkirui1/DSF-PT08P5-GROUP4-CAPSTONE-PROJECT/blob/main/images/Distribution%20of%20Fraud%20and%20Non%20Fraud%20Cases%20by%20Numerical%20Features.png)
+
+![Correlation Matrix](https://github.com/gkipkirui1/DSF-PT08P5-GROUP4-CAPSTONE-PROJECT/blob/main/images/Correlation%20Analysis%20of%20Numerical%20Features.png)
+The correlation matrix shows very weak linear relationships (correlation coefficients near zero) among variables, indicating minimal direct association. Most variables are linearly independent, suggesting that changes in one do not strongly affect others. This implies that non-linear patterns or additional feature engineering may be necessary for predictive modeling.
+
+![Analysis of Transaction Amount Targeted by Fraud](https://github.com/gkipkirui1/DSF-PT08P5-GROUP4-CAPSTONE-PROJECT/blob/main/images/Analysis%20of%20Transaction%20Amount%20Targeted%20by%20Fraud)
+On the nalysis of Transaction Amount Targeted by Fraud a total transactions amount of 497.1157 Million Indian Rupees were reported to have been targetted by Fraud
 
 # 📌Exploratory Data Analysis (EDA)
 ---
