@@ -75,6 +75,18 @@ The numerical columns in the dataset are: ['Age', 'Transaction_Amount', 'Account
 
 The categorical columns in the dataset are: ['Customer_ID', 'Customer_Name', 'Gender', 'State', 'City', 'Bank_Branch', 'Account_Type', 'Transaction_ID', 'Transaction_Date', 'Transaction_Time', 'Merchant_ID', 'Transaction_Type', 'Merchant_Category', 'Transaction_Device', 'Transaction_Location', 'Device_Type', 'Transaction_Currency', 'Customer_Contact', 'Transaction_Description', 'Customer_Email']
 
+# 📌Installations  
+
+1. Clone the repository:  
+   ```bash
+   git clone git@github.com:gkipkirui1/DSF-PT08P5-GROUP4-CAPSTONE-PROJECT.git
+ 
+2.Navigate to the project Directory  
+  <pre><code>cd DSF-PT08P5-GROUP4-CAPSTONE-PROJECT</code></pre>
+  
+
+3.Install the required dependencies  
+   <pre><code>pip install -r requirements.txt</code></pre>
 
 # 📌Data Understanding and Preparation 
 ---
