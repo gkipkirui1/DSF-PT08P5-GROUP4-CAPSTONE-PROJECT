@@ -121,7 +121,7 @@ The categorical columns in the dataset are: ['Customer_ID', 'Customer_Name', 'Ge
 ![Distribution of Fraud and Non Fraud Cases by Categorical Features.png](https://github.com/gkipkirui1/DSF-PT08P5-GROUP4-CAPSTONE-PROJECT/blob/main/images/Distribution%20of%20Fraud%20and%20Non%20Fraud%20Cases%20by%20Categorical%20Features.png)
 
 * The count plot shows that there are more non-fraudulent transactions for both genders, but the proportion of fraudulent transactions is slightly higher among males compared to females. This suggests that gender may play a role in the likelihood of fraud, warranting further investigation into behavioral patterns.
-* raud rates fluctuate across ages without a strong linear trend. However, some spikes are noticeable between ages 20–30 and around 50–60. Certain age groups might have higher vulnerability to fraud, possibly due to behavioral or financial factors.
+* Fraud rates fluctuate across ages without a strong linear trend. However, some spikes are noticeable between ages 20–30 and around 50–60. Certain age groups might have higher vulnerability to fraud, possibly due to behavioral or financial factors.
 * The distribution of fraudulent transactions across different devices is relatively equal, indicating that there may not be a significant difference in fraud occurrence based on the device used.
 
 ![Number of Fraudulent over time](https://github.com/gkipkirui1/DSF-PT08P5-GROUP4-CAPSTONE-PROJECT/blob/main/images/Analysis%20of%20Fraud%20Cases%20Over%20Time.png)
