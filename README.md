@@ -225,7 +225,7 @@ In this step, we prepared our data for Modelling. The following steps were under
 
 > After creating a pipelines with the models and fitting them to the training data, we shall now evaluate the performance of the models on the test data. We shall use accuracy as the performance metric here:
 
-## Model Performance Comparison before tuning
+## Model Performance Comparison Before Tuning
 
 | # | Model                           | Accuracy  | Precision | Recall   | AUPRC   |
 |---|--------------------------------|-----------|-----------|----------|---------|
