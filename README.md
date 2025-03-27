@@ -219,12 +219,13 @@ In this step, we prepared our data for Modelling. The following steps were under
 * Adaboost Classifier: This is a boosting algorithm that combines weak classifiers iteratively, weighting misclassified instances more heavily in subsequent iterations.
 * Gradient Boosting Classifier: A powerful boosting model that sequentially trains weak learners to minimize error using gradient descent, often capturing complex patterns.
 * XGBoost Classifier: An optimized and fast gradient boosting algorithm widely used for high-performance tasks, offering features like regularization and handling sparse data efficiently.
+* Stacking Classifier:  is an ensemble learning method that combines predictions from multiple base models using a meta-model to improve overall performance.
 
 > To address the issue of class imbalance We used the SMOTE technique to solve the issue of class imbalance since this dataset is highly imbalanced.
 
 > After creating a pipelines with the models and fitting them to the training data, we shall now evaluate the performance of the models on the test data. We shall use accuracy as the performance metric here:
 
-## Model Performance Comparison
+## Model Performance Comparison before tuning
 
 | # | Model                           | Accuracy  | Precision | Recall   | AUPRC   |
 |---|--------------------------------|-----------|-----------|----------|---------|
@@ -255,7 +256,7 @@ In this step, we prepared our data for Modelling. The following steps were under
 
 ## Metrics Table 
 
-## Model Performance Comparison
+## Model Performance Comparison after Tuning (Stacking Classifier included)
 
 | #  | Model                      | Accuracy  | Precision | Recall   | AUPRC   |
 |----|----------------------------|-----------|-----------|----------|---------|
