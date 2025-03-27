@@ -38,7 +38,7 @@ To combat these threats, banks need an intelligent, adaptive fraud detection sys
 ---
 The Central Bank of Kenya (CBK) has highlighted key risk factors, including the rapid adoption of digital financial services, low consumer awareness of financial security, and emerging cyber threats that continue to evolve. Furthermore, scam-related frauds, identity theft, and card skimming have intensified, leading to substantial financial losses and undermining public trust in the financial sector. In response to these challenges, we aim to develop a robust fraud detection and prevention model that leverages advanced technologies such as machine learning, artificial intelligence, and real-time transaction monitoring. This model will enhance the ability of financial institutions in Kenya to detect fraudulent activities proactively, mitigate risks, and strengthen cybersecurity measures ensuring real-time fraud prevention and minimizing financial losses.
 
-## 📌Project Objectives
+## 📌Business Objectives
 ---
 The objective of this project is to develop a model to:
 
