@@ -238,19 +238,19 @@ In this step, we prepared our data for Modelling. The following steps were under
 
 **Best Model:** 🏆 **Classifier with best accuracy** **Random Forest Classifier** (Accuracy: **0.9496**) 
 
-**k-Nearest Neighbors (kNN) achieved the highest recall (0.273) and the best AUPRC (0.0935). This indicates that it detects a larger proportion of fraud cases and balances precision and recall effectively, making it the most suitable model for fraud detection based on these metrics.**
+1. **k-Nearest Neighbors (kNN) achieved the highest recall (0.273) and the best AUPRC (0.0935). This indicates that it detects a larger proportion of fraud cases and balances precision and recall effectively, making it the most suitable model for fraud detection based on these metrics.**
 
-**Other models like Decision Tree, Random Forest, Adaboost, and Gradient Boosting performed well in terms of accuracy (above 0.88), but their recall and AUPRC were lower, with kNN outperforming them in fraud-specific metrics.**
+2. **Other models like Decision Tree, Random Forest, Adaboost, and Gradient Boosting performed well in terms of accuracy (above 0.88), but their recall and AUPRC were lower, with kNN outperforming them in fraud-specific metrics.**
 
-**Random Forest, Adaboost, XGBoost, Gradient Boosting, and Bagging Classifiers had AUPRC values below 0.054, and 0 precision and recall, indicating poor performance in correctly identifying fraud cases.**
+3. **Random Forest, Adaboost, XGBoost, Gradient Boosting, and Bagging Classifiers had AUPRC values below 0.054, and 0 precision and recall, indicating poor performance in correctly identifying fraud cases.**
 
-**The k-Nearest Neighbors (kNN) model stands out as the overall best for fraud detection, excelling in recall (fraud case identification) and AUPRC (effectiveness in imbalanced datasets.**
+4. **The k-Nearest Neighbors (kNN) model stands out as the overall best for fraud detection, excelling in recall (fraud case identification) and AUPRC (effectiveness in imbalanced datasets.**
 
 > We used Stacking Classifier Model to see the performance compares to the performance of individual models:
 
-**The Stacking Classifier performs well in overall accuracy and leverages the strengths of its base and meta models. However, its recall for fraud cases remains low, meaning it fails to identify most fraud cases.**
+5. **The Stacking Classifier performs well in overall accuracy and leverages the strengths of its base and meta models. However, its recall for fraud cases remains low, meaning it fails to identify most fraud cases.**
 
-** The k-Nearest Neighbors (kNN) model still stands out as the best performer for fraud detection due to its high recall and superior AUPRC, both critical for identifying fraud in imbalanced datasets.
+6. **The k-Nearest Neighbors (kNN) model still stands out as the best performer for fraud detection due to its high recall and superior AUPRC, both critical for identifying fraud in imbalanced datasets.**
 
 
 ## Metrics Table 
@@ -277,7 +277,6 @@ The untuned k-Nearest Neighbors (kNN) model is the best performer for our fraud 
 * High recall (0.273), meaning it detects a larger proportion of fraud cases as compared to other models analysed
 
 * Highest AUPRC (0.093), showing a strong performance in balancing precision and recall as compared to other models analysed
-
 
 
 # 📌 Conclusion
