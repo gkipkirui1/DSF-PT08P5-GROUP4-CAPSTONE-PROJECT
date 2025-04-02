@@ -100,7 +100,7 @@ The categorical columns in the dataset are: ['Customer_ID', 'Customer_Name', 'Ge
 
 5. The dataset has no duplicate rows.
 
-5. The descriotive analysis of the categorical data was: 
+5. The descriptive analysis of the categorical data was: 
 
     * The mean age, transaction amount and account Balance is 44 years, 49538 INR and 53437 INR respectively.
    
@@ -134,7 +134,7 @@ The categorical columns in the dataset are: ['Customer_ID', 'Customer_Name', 'Ge
        
     3. Peak 3: Start = 2025-01-26 18:00:00, End = 2025-01-27 00:00:00, Count = 106
 
-* Given that the dataset was sourced from India, we researched on what was unique during the peak fraud periods. We established that on 6/01/2025 was Guru Gobind Singh's Birthday, a holiday celebrated in some states in India. Similarly, 26/01/2025 was Republic Day (G); a national holiday in India. India also observed lunar new year on 29/01/2025, one of the most important celebrations of the year among East and Southeast Asian cultures.
+* Given that the dataset was sourced from India, we researched on what was unique during the peak fraud periods. We established that on 6/01/2025 was Guru Gobind Singh's Birthday, a holiday celebrated in some states in India. Similarly, 26/01/2025 was Republic Day; a national holiday in India. India also observed lunar new year on 29/01/2025, one of the most important celebrations of the year among East and Southeast Asian cultures.
 
 ![Distribution of Fraud and Non Fraud Cases by Numerical Features](https://github.com/gkipkirui1/DSF-PT08P5-GROUP4-CAPSTONE-PROJECT/blob/main/images/Distribution%20of%20Fraud%20and%20Non%20Fraud%20Cases%20by%20Numerical%20Features.png)
 
@@ -146,7 +146,7 @@ The correlation matrix shows very weak linear relationships (correlation coeffic
 
 ![Analysis of Transaction Amount Targeted by Fraud](https://github.com/gkipkirui1/DSF-PT08P5-GROUP4-CAPSTONE-PROJECT/blob/main/images/Analysis%20of%20Transaction%20Amount%20Targeted%20by%20Fraud)
 
-* On the nalysis of Transaction Amount Targeted by Fraud a total transactions amount of 497.1157 Million Indian Rupees were reported to have been targetted by Fraud
+* On the analysis of Transaction Amount Targeted by Fraud a total transactions amount of 497.1157 Million Indian Rupees were reported to have been targetted by Fraud
 
 # 📌Exploratory Data Analysis (EDA)
 ---
@@ -245,13 +245,13 @@ In this step, we prepared our data for Modelling. The following steps were under
 
 3. **Random Forest, Adaboost, XGBoost, Gradient Boosting, and Bagging Classifiers had AUPRC values below 0.054, and 0 precision and recall, indicating poor performance in correctly identifying fraud cases.**
 
-4. **The k-Nearest Neighbors (kNN) model stands out as the overall best for fraud detection, excelling in recall (fraud case identification) and AUPRC (effectiveness in imbalanced datasets.**
+4. **The K-Nearest Neighbors (kNN) model stands out as the overall best for fraud detection, excelling in recall (fraud case identification) and AUPRC (effectiveness in imbalanced datasets.**
 
 > We used Stacking Classifier Model to see the performance compares to the performance of individual models:
 
 5. **The Stacking Classifier performs well in overall accuracy and leverages the strengths of its base and meta models. However, its recall for fraud cases remains low, meaning it fails to identify most fraud cases.**
 
-6. **The k-Nearest Neighbors (kNN) model still stands out as the best performer for fraud detection due to its high recall and superior AUPRC, both critical for identifying fraud in imbalanced datasets.**
+6. **The K-Nearest Neighbors (kNN) model still stands out as the best performer for fraud detection due to its high recall and superior AUPRC, both critical for identifying fraud in imbalanced datasets.**
 
 
 ## Metrics Table 
@@ -292,6 +292,8 @@ The untuned k-Nearest Neighbors (kNN) model is the best performer for our fraud 
 * The ATM Booth Kiosk, the ATM and the Self-service Machine channels posed the highest risk of fraud among the transaction devices.
 
 * The peak periods of fraud incidents are during holidays.
+  
+* The untuned k-Nearest Neighbors (KNN) model is the best performer for our fraud detection task based on a high recall meaning it detects a larger proportion of fraud cases as compared to other models analysed. Also it has highest AUPRC showing a strong performance in balancing precision and recall as compared to other models analysed
 
 # 📌 Recommendations
 ---
