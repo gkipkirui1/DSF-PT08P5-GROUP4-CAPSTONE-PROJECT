@@ -3,7 +3,7 @@
 
 ---
 
-* Group: GROUP 4 CAPTONE PROJECT
+* Group: GROUP 4 CAPSTONE PROJECT
 
 * Members:
 1. Gilbert Cheruiyot
