@@ -5,6 +5,14 @@
 
 * Group: GROUP 4 CAPTONE PROJECT
 
+* Members:
+1. Gilbert Cheruiyot
+2. James Muthee
+3. Joseph Mulwa
+4. Jackline Nyaguthii
+5. Vivian Muiruri
+6. Mika Benson
+
 * Student pace: Part Time
 
 * Scheduled project review date/time: February 2025 - March 2025
@@ -309,5 +317,7 @@ The untuned k-Nearest Neighbors (kNN) model is the best performer for our fraud 
 * Understanding the distribution of fraud cases by age group can aid in risk assessment and the development of targeted fraud prevention strategies. Financial institutions and security agencies can use this information to implement age-specific awareness campaigns and security measures.
 
 * Understanding the distribution of fraud cases by gender can help in designing targeted fraud prevention strategies. For example, if females have a higher number of fraud cases, awareness campaigns and security measures can be tailored specifically for female users.
+
+* The model that we recommend for fraud detection is K-Nearest Neighbors (KNN)  Classifier because it has the best recall and AUCPRC compared to the other models used. 
 
 ---
