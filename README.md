@@ -58,8 +58,6 @@ The objective of this project is to develop a model to:
 
 4. Identify peak fraud periods based on transactions date and transactions time.
 
-5. Establish a model that can detect suspicious card frauds in real time
-
 ## 📌Target Audience
 ---
 This project is designed for:
