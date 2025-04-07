@@ -50,7 +50,7 @@ The Central Bank of Kenya (CBK) has highlighted key risk factors, including the 
 ---
 The objective of this project is to develop a model to:
 
-1. Analyse card transaction patterns with a view to detect fraud
+1. Analyse bank transaction patterns with a view to detect fraud
 
 2. Come up with a predictive models that can accurately classify transactions as fraudulent or legitimate
 
